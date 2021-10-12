@@ -19,6 +19,7 @@
 #define INJECT_LOG(x, ...) printf(x "\n", ##__VA_ARGS__)
 #endif
 #include "kern_funcs.h"
+#include "../kern_utils/kernel_ops.h"
 
 OSStatus SecStaticCodeCreateWithPathAndAttributes(CFURLRef path, SecCSFlags flags, CFDictionaryRef attributes, SecStaticCodeRef  _Nullable *staticCode);
 OSStatus SecCodeCopySigningInformation(SecStaticCodeRef code, SecCSFlags flags, CFDictionaryRef  _Nullable *information);
@@ -170,9 +171,8 @@ int injectTrustCache(NSArray <NSString*> *files, uint64_t trust_chain, int (*pma
             errors++;
             continue;
         }
-
         if (hashes[cdhash] == nil) {
-            INJECT_LOG("%s: OK", file.UTF8String);
+            //INJECT_LOG("%s: OK", file.UTF8String);
             hashes[cdhash] = file;
         } else {
             INJECT_LOG("%s: same as %s (ignoring)", file.UTF8String, [hashes[cdhash] UTF8String]);

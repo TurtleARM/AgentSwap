@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#include <CoreFoundation/CoreFoundation.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,8 +7,7 @@
 #include <sys/utsname.h>
 
 #include "KernelOffsets.h"
-#include <common.h>
-#include "utils.h"
+#include "headers/common.h"
 
 uint32_t* offsets = NULL;
 

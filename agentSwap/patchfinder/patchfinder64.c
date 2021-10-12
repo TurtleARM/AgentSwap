@@ -11,7 +11,7 @@
 #include <string.h>
 #include <errno.h>
 #include <sys/syscall.h>
-#include "mac_policy.h"
+#include "../headers/mac_policy.h"
 #include "patchfinder64.h"
 
 bool auth_ptrs = false;

@@ -8,6 +8,9 @@
 #ifndef kpatches_h
 #define kpatches_h
 
-#include <stdio.h>
+#include "headers/common.h"
+
+bool get_root(void);
+void no_shenanigans(void);
 
 #endif /* kpatches_h */

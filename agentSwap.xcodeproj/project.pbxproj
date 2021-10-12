@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60053F0726F8F2A50083066A /* kpatches.c in Sources */ = {isa = PBXBuildFile; fileRef = 60053F0626F8F2A50083066A /* kpatches.c */; };
+		60053F0B26F8F6CE0083066A /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 60053F0926F8F6CD0083066A /* patchfinder64.c */; };
+		60970C8B26F9C2A9005632EA /* ArchiveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60970C8926F9C2A9005632EA /* ArchiveFile.m */; };
+		60970C8D26F9C2BF005632EA /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60970C8C26F9C2BD005632EA /* libarchive.2.tbd */; };
+		60A67AE926FDCF26003CB625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A67AE826FDCF23003CB625 /* Foundation.framework */; };
+		60A67AEB26FE0B69003CB625 /* base_ent.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60A67AEA26FE0B69003CB625 /* base_ent.xml */; };
+		60A67AF326FE3960003CB625 /* inject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A67AF226FE3960003CB625 /* inject.m */; };
+		60A67AF726FE4043003CB625 /* libmis.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A67AF626FE4040003CB625 /* libmis.tbd */; };
+		60AEE99026FF331900441A68 /* drop_payload.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AEE98F26FF331900441A68 /* drop_payload.m */; };
+		60B678342700A86C008B4888 /* binaries in Resources */ = {isa = PBXBuildFile; fileRef = 60B678332700A869008B4888 /* binaries */; };
 		60B81E9F26F77DC7006EAAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81E9E26F77DC7006EAAAC /* AppDelegate.m */; };
-		60B81EA226F77DC7006EAAAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81EA126F77DC7006EAAAC /* SceneDelegate.m */; };
 		60B81EA526F77DC7006EAAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81EA426F77DC7006EAAAC /* ViewController.m */; };
 		60B81EA826F77DC7006EAAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B81EA626F77DC7006EAAAC /* Main.storyboard */; };
 		60B81EAA26F77DC8006EAAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B81EA926F77DC8006EAAAC /* Assets.xcassets */; };
 		60B81EAD26F77DC8006EAAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B81EAB26F77DC8006EAAAC /* LaunchScreen.storyboard */; };
 		60B81EB026F77DC8006EAAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81EAF26F77DC8006EAAAC /* main.m */; };
+		60B81EBB26F784CB006EAAAC /* jailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81EBA26F784CB006EAAAC /* jailbreak.m */; };
+		60B81F4126F787DD006EAAAC /* machswap_pwn.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F3B26F787DC006EAAAC /* machswap_pwn.m */; };
+		60B81F4226F787DD006EAAAC /* machswap_offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F3C26F787DC006EAAAC /* machswap_offsets.m */; };
+		60B81F4726F78A40006EAAAC /* kernel_ops.c in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F4626F78A40006EAAAC /* kernel_ops.c */; };
+		60B81F4A26F78C59006EAAAC /* kernel_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F4926F78C59006EAAAC /* kernel_utils.c */; };
+		60B81F5026F78E62006EAAAC /* KernelOffsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F4F26F78E62006EAAAC /* KernelOffsets.m */; };
+		60B81F5426F7905B006EAAAC /* offsetcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 60B81F5326F7905B006EAAAC /* offsetcache.c */; };
+		60B81F5A26F7A482006EAAAC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B81F5926F7A481006EAAAC /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60053F0526F8F2A50083066A /* kpatches.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kpatches.h; sourceTree = "<group>"; };
+		60053F0626F8F2A50083066A /* kpatches.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kpatches.c; sourceTree = "<group>"; };
+		60053F0926F8F6CD0083066A /* patchfinder64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patchfinder64.c; sourceTree = "<group>"; };
+		60053F0A26F8F6CE0083066A /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
+		60053F0C26F8F7420083066A /* mac_policy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_policy.h; sourceTree = "<group>"; };
+		60970C8926F9C2A9005632EA /* ArchiveFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveFile.m; sourceTree = "<group>"; };
+		60970C8A26F9C2A9005632EA /* ArchiveFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveFile.h; sourceTree = "<group>"; };
+		60970C8C26F9C2BD005632EA /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = usr/lib/libarchive.2.tbd; sourceTree = SDKROOT; };
+		60970C8E26F9C2DF005632EA /* archive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = archive.h; sourceTree = "<group>"; };
+		60970C8F26F9C366005632EA /* archive_entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = archive_entry.h; sourceTree = "<group>"; };
+		60A67AE826FDCF23003CB625 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60A67AEA26FE0B69003CB625 /* base_ent.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = base_ent.xml; sourceTree = "<group>"; };
+		60A67AF126FE3960003CB625 /* inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inject.h; sourceTree = "<group>"; };
+		60A67AF226FE3960003CB625 /* inject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inject.m; sourceTree = "<group>"; };
+		60A67AF426FE39C0003CB625 /* CSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCommon.h; sourceTree = "<group>"; };
+		60A67AF526FE3A07003CB625 /* kern_funcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kern_funcs.h; sourceTree = "<group>"; };
+		60A67AF626FE4040003CB625 /* libmis.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmis.tbd; path = usr/lib/libmis.tbd; sourceTree = SDKROOT; };
+		60AEE98E26FF331900441A68 /* drop_payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drop_payload.h; sourceTree = "<group>"; };
+		60AEE98F26FF331900441A68 /* drop_payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drop_payload.m; sourceTree = "<group>"; };
+		60B678332700A869008B4888 /* binaries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = binaries; sourceTree = "<group>"; };
 		60B81E9A26F77DC7006EAAAC /* agentSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agentSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B81E9D26F77DC7006EAAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60B81E9E26F77DC7006EAAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60B81EA026F77DC7006EAAAC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		60B81EA126F77DC7006EAAAC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		60B81EA326F77DC7006EAAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		60B81EA426F77DC7006EAAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60B81EA726F77DC7006EAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +64,24 @@
 		60B81EAC26F77DC8006EAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B81EAE26F77DC8006EAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B81EAF26F77DC8006EAAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B81EB626F7848E006EAAAC /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		60B81EBA26F784CB006EAAAC /* jailbreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jailbreak.m; sourceTree = "<group>"; };
+		60B81F3B26F787DC006EAAAC /* machswap_pwn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = machswap_pwn.m; sourceTree = "<group>"; };
+		60B81F3C26F787DC006EAAAC /* machswap_offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = machswap_offsets.m; sourceTree = "<group>"; };
+		60B81F3D26F787DC006EAAAC /* machswap_offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machswap_offsets.h; sourceTree = "<group>"; };
+		60B81F3E26F787DC006EAAAC /* machswap_pwn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machswap_pwn.h; sourceTree = "<group>"; };
+		60B81F4526F78A40006EAAAC /* kernel_ops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kernel_ops.h; sourceTree = "<group>"; };
+		60B81F4626F78A40006EAAAC /* kernel_ops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kernel_ops.c; sourceTree = "<group>"; };
+		60B81F4826F78C59006EAAAC /* kernel_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kernel_utils.h; sourceTree = "<group>"; };
+		60B81F4926F78C59006EAAAC /* kernel_utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kernel_utils.c; sourceTree = "<group>"; };
+		60B81F4B26F78CA4006EAAAC /* iokit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iokit.h; sourceTree = "<group>"; };
+		60B81F4E26F78E62006EAAAC /* KernelOffsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelOffsets.h; sourceTree = "<group>"; };
+		60B81F4F26F78E62006EAAAC /* KernelOffsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KernelOffsets.m; sourceTree = "<group>"; };
+		60B81F5226F7905B006EAAAC /* offsetcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsetcache.h; sourceTree = "<group>"; };
+		60B81F5326F7905B006EAAAC /* offsetcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = offsetcache.c; sourceTree = "<group>"; };
+		60B81F5526F79C18006EAAAC /* jailbreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jailbreak.h; sourceTree = "<group>"; };
+		60B81F5726F7A44B006EAAAC /* Xcode.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Xcode.app; path = ../../../../Applications/Xcode.app; sourceTree = "<group>"; };
+		60B81F5926F7A481006EAAAC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +89,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A67AF726FE4043003CB625 /* libmis.tbd in Frameworks */,
+				60A67AE926FDCF26003CB625 /* Foundation.framework in Frameworks */,
+				60B81F5A26F7A482006EAAAC /* IOKit.framework in Frameworks */,
+				60970C8D26F9C2BF005632EA /* libarchive.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60053F0826F8F6C10083066A /* patchfinder */ = {
+			isa = PBXGroup;
+			children = (
+				60053F0926F8F6CD0083066A /* patchfinder64.c */,
+				60053F0A26F8F6CE0083066A /* patchfinder64.h */,
+			);
+			path = patchfinder;
+			sourceTree = "<group>";
+		};
+		60A67AF026FE394F003CB625 /* injector */ = {
+			isa = PBXGroup;
+			children = (
+				60A67AF126FE3960003CB625 /* inject.h */,
+				60A67AF226FE3960003CB625 /* inject.m */,
+				60A67AF426FE39C0003CB625 /* CSCommon.h */,
+				60A67AF526FE3A07003CB625 /* kern_funcs.h */,
+			);
+			path = injector;
+			sourceTree = "<group>";
+		};
 		60B81E9126F77DC7006EAAAC = {
 			isa = PBXGroup;
 			children = (
+				60B678332700A869008B4888 /* binaries */,
 				60B81E9C26F77DC7006EAAAC /* agentSwap */,
 				60B81E9B26F77DC7006EAAAC /* Products */,
+				60B81F5626F7A44B006EAAAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +140,89 @@
 		60B81E9C26F77DC7006EAAAC /* agentSwap */ = {
 			isa = PBXGroup;
 			children = (
+				60A67AF026FE394F003CB625 /* injector */,
+				60A67AEA26FE0B69003CB625 /* base_ent.xml */,
+				60970C8A26F9C2A9005632EA /* ArchiveFile.h */,
+				60970C8926F9C2A9005632EA /* ArchiveFile.m */,
+				60053F0826F8F6C10083066A /* patchfinder */,
+				60B81F5126F79053006EAAAC /* offset-cache */,
+				60B81F4E26F78E62006EAAAC /* KernelOffsets.h */,
+				60B81F4F26F78E62006EAAAC /* KernelOffsets.m */,
+				60B81F4426F78A25006EAAAC /* kern_utils */,
+				60B81F3A26F787D2006EAAAC /* machswap */,
+				60B81EB926F784AD006EAAAC /* headers */,
 				60B81E9D26F77DC7006EAAAC /* AppDelegate.h */,
 				60B81E9E26F77DC7006EAAAC /* AppDelegate.m */,
-				60B81EA026F77DC7006EAAAC /* SceneDelegate.h */,
-				60B81EA126F77DC7006EAAAC /* SceneDelegate.m */,
 				60B81EA326F77DC7006EAAAC /* ViewController.h */,
+				60AEE98E26FF331900441A68 /* drop_payload.h */,
+				60AEE98F26FF331900441A68 /* drop_payload.m */,
 				60B81EA426F77DC7006EAAAC /* ViewController.m */,
 				60B81EA626F77DC7006EAAAC /* Main.storyboard */,
 				60B81EA926F77DC8006EAAAC /* Assets.xcassets */,
 				60B81EAB26F77DC8006EAAAC /* LaunchScreen.storyboard */,
 				60B81EAE26F77DC8006EAAAC /* Info.plist */,
 				60B81EAF26F77DC8006EAAAC /* main.m */,
+				60B81EBA26F784CB006EAAAC /* jailbreak.m */,
+				60B81F5526F79C18006EAAAC /* jailbreak.h */,
+				60053F0526F8F2A50083066A /* kpatches.h */,
+				60053F0626F8F2A50083066A /* kpatches.c */,
 			);
 			path = agentSwap;
+			sourceTree = "<group>";
+		};
+		60B81EB926F784AD006EAAAC /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				60970C8E26F9C2DF005632EA /* archive.h */,
+				60B81F4B26F78CA4006EAAAC /* iokit.h */,
+				60B81EB626F7848E006EAAAC /* common.h */,
+				60053F0C26F8F7420083066A /* mac_policy.h */,
+				60970C8F26F9C366005632EA /* archive_entry.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		60B81F3A26F787D2006EAAAC /* machswap */ = {
+			isa = PBXGroup;
+			children = (
+				60B81F3D26F787DC006EAAAC /* machswap_offsets.h */,
+				60B81F3C26F787DC006EAAAC /* machswap_offsets.m */,
+				60B81F3E26F787DC006EAAAC /* machswap_pwn.h */,
+				60B81F3B26F787DC006EAAAC /* machswap_pwn.m */,
+			);
+			path = machswap;
+			sourceTree = "<group>";
+		};
+		60B81F4426F78A25006EAAAC /* kern_utils */ = {
+			isa = PBXGroup;
+			children = (
+				60B81F4526F78A40006EAAAC /* kernel_ops.h */,
+				60B81F4626F78A40006EAAAC /* kernel_ops.c */,
+				60B81F4826F78C59006EAAAC /* kernel_utils.h */,
+				60B81F4926F78C59006EAAAC /* kernel_utils.c */,
+			);
+			path = kern_utils;
+			sourceTree = "<group>";
+		};
+		60B81F5126F79053006EAAAC /* offset-cache */ = {
+			isa = PBXGroup;
+			children = (
+				60B81F5326F7905B006EAAAC /* offsetcache.c */,
+				60B81F5226F7905B006EAAAC /* offsetcache.h */,
+			);
+			path = "offset-cache";
+			sourceTree = "<group>";
+		};
+		60B81F5626F7A44B006EAAAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A67AF626FE4040003CB625 /* libmis.tbd */,
+				60A67AE826FDCF23003CB625 /* Foundation.framework */,
+				60970C8C26F9C2BD005632EA /* libarchive.2.tbd */,
+				60B81F5926F7A481006EAAAC /* IOKit.framework */,
+				60B81F5726F7A44B006EAAAC /* Xcode.app */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +283,9 @@
 			files = (
 				60B81EAD26F77DC8006EAAAC /* LaunchScreen.storyboard in Resources */,
 				60B81EAA26F77DC8006EAAAC /* Assets.xcassets in Resources */,
+				60A67AEB26FE0B69003CB625 /* base_ent.xml in Resources */,
 				60B81EA826F77DC7006EAAAC /* Main.storyboard in Resources */,
+				60B678342700A86C008B4888 /* binaries in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +296,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60970C8B26F9C2A9005632EA /* ArchiveFile.m in Sources */,
+				60B81F4A26F78C59006EAAAC /* kernel_utils.c in Sources */,
+				60B81F4226F787DD006EAAAC /* machswap_offsets.m in Sources */,
+				60B81F5026F78E62006EAAAC /* KernelOffsets.m in Sources */,
+				60B81F5426F7905B006EAAAC /* offsetcache.c in Sources */,
 				60B81EA526F77DC7006EAAAC /* ViewController.m in Sources */,
 				60B81E9F26F77DC7006EAAAC /* AppDelegate.m in Sources */,
 				60B81EB026F77DC8006EAAAC /* main.m in Sources */,
-				60B81EA226F77DC7006EAAAC /* SceneDelegate.m in Sources */,
+				60A67AF326FE3960003CB625 /* inject.m in Sources */,
+				60B81F4126F787DD006EAAAC /* machswap_pwn.m in Sources */,
+				60053F0726F8F2A50083066A /* kpatches.c in Sources */,
+				60B81EBB26F784CB006EAAAC /* jailbreak.m in Sources */,
+				60AEE99026FF331900441A68 /* drop_payload.m in Sources */,
+				60053F0B26F8F6CE0083066A /* patchfinder64.c in Sources */,
+				60B81F4726F78A40006EAAAC /* kernel_ops.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -207,8 +370,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: turtlearm97@gmail.com (5A5Q257P88)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 39RW7DNT8L;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -225,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -237,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -266,6 +432,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: turtlearm97@gmail.com (5A5Q257P88)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -278,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,8 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LUX89UY3YH;
+				DEVELOPMENT_TEAM = 39RW7DNT8L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = agentSwap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,7 +473,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.turtlearm.agentSwap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,8 +483,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LUX89UY3YH;
+				DEVELOPMENT_TEAM = 39RW7DNT8L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = agentSwap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,7 +498,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.turtlearm.agentSwap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

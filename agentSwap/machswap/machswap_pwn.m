@@ -338,7 +338,7 @@ extern uint64_t kmem_alloc(uint64_t size);
 extern void prepare_for_rw_with_fake_tfp0(mach_port_t fake_tfp0);
 extern void prepare_rwk_via_tfp0(mach_port_t port);
 extern uint64_t kernel_base;
-extern uint64_t kernel_slide;
+uint64_t kernel_slide = -1;
 extern uint64_t ReadKernel64(uint64_t kaddr);
 extern void WriteKernel64(uint64_t kaddr, uint64_t val);
 extern uint32_t ReadKernel32(uint64_t kaddr);
@@ -587,7 +587,6 @@ kern_return_t machswap_exploit(machswap_offsets_t *offsets)
     LOG("port: %x", real_port_to_fake_voucher);
     
     /* things are looking good; should be 100% success rate from here */
-    LOG("WE REALLY POSTED UP ON THIS BLOCK");
     
     mach_port_t the_one = real_port_to_fake_voucher;
     prepare_for_rw_with_fake_tfp0(the_one);
